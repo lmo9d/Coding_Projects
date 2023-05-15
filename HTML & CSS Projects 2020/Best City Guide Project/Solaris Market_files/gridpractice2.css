@@ -1,0 +1,43 @@
+
+
+/* MY CLASSES WORK */
+
+.Container{
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 1fr ;
+	grid-template-rows: 155px minmax(250px, 1fr) 50px;
+	grid-gap: 5px;
+	grid-template-areas: 
+	"header"
+	"nav"
+	"section"
+	"footer";
+}
+
+
+header {
+	grid-area: header;  /*Shorthand method of writing Grid row Start / Grid Row End */
+	background-color: green;
+}
+
+/*nav{
+	grid-area: nav;
+
+}*/
+
+
+section{
+	 grid-area: section;
+	 background-color: #0089d0;
+
+}
+
+
+footer {
+	grid-area: footer;
+ 	background-color: grey;
+
+}
+
+

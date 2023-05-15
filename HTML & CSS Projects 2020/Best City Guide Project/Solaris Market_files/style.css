@@ -1,0 +1,493 @@
+/*html {scroll-behavior: smooth;}
+*/
+
+/*
+*, :after, :before {
+	box-sizing: border-box;
+	flex-wrap: wrap;
+
+}*/
+
+/*
+*{
+	margin: 0;
+	width: 100%;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}*/
+
+/* ========================
+	 
+	 Base Element Styles 
+
+   ======================== */
+
+
+*{
+	margin: 0;
+
+
+}
+
+/*html  {
+	margin: 0;
+	background:gray;
+	box-sizing: border-box;
+
+}
+*/
+/*
+h1{
+	margin: 0;
+	padding: 1.5rem;
+	border: 5px;
+	font-size: 55px;
+	color: white;
+	text-align: center;
+	letter-spacing: 17px;
+	box-sizing: border-box;
+}
+
+
+
+ul {
+	list-style: none;
+	position: relative;
+	text-decoration: none;
+	text-align: left;
+}
+
+
+li {
+	display: inline-block;
+	list-style: none;
+	text-decoration: none;
+}
+
+
+a {
+	display: inline-block;
+	text-decoration: none;
+	display: block;
+}
+
+
+ul::before 
+
+ul::after {
+	content: " ";
+	display: table;
+
+}
+
+
+ul.SUB{
+	position: absolute;
+	display: none;
+	z-index: 200;
+}
+
+ul.SUB li{
+	float: none;
+	margin: 0;
+
+}
+
+ul.SUB li a{
+	border-right: none;
+	padding: 15px 30px;
+
+}
+
+ul.SUB li a:hover{
+	color: #000;
+	background: #eeeee;
+
+}*/
+
+/* sub display*/
+/*ul.primary li:hover ul {
+  display: block;
+  background: #fff;
+}*/
+
+
+/* keeps the tab background white */
+
+/*ul.primary li:hover a {
+  background: #fff;
+  color: #666;
+  text-shadow: none;
+}
+
+ul.primary li:hover > a{
+  color: #000;
+} 
+
+
+/* MY CLASSES WORK */
+
+
+
+
+.Header{
+/*	background-color: red;
+*/	width: 100%;
+	box-sizing: border-box;
+
+}
+
+.TopQuickLinks{
+	margin: 0;
+/*	border: 10px;
+	padding: 13px;*/
+/*	background-color: green;
+*/
+}
+
+
+.TopBlock {
+	margin: 0;
+/*	padding: 5px;
+	border: 10px;*/
+/*	background-color: blue;
+*/	text-align: center;
+
+
+}
+
+.TopNav {
+	margin: 0;
+	padding: 5px;
+	border: 5px;
+/*	background-color: black;
+	display: block;
+	text-align: center;
+	position: relative;
+*/
+}
+
+
+.Navbar{
+	margin-top: 10px;
+	position: relative;
+	/*text-align: center;*/
+}
+
+/*header {
+	box-sizing: border-box;
+	width: 100%;
+	display: block;
+	margin: 0;
+	font-size: 75px;
+	color: white;
+	text-align: center;
+	align-items: center;
+	background: #0089d0;
+}
+
+
+/*
+.RootContainer {
+	display: block;
+	box-sizing: border-box;
+
+}
+
+.Header, .Header * {
+	box-sizing: border-box;
+	outline: 0;
+
+}
+
+.Header {
+	position: relative;
+	z-index: 11;
+	margin: auto;
+	padding: 5px;
+	border: 5px;
+	border: 0;
+	align-items: center;
+
+
+}
+
+.TopQuickLinks{
+	margin-top: 5%;
+	background: gray;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	justify-content: space-around;
+}
+
+
+.TopRightQuickLinks{
+	width: 100% !important;
+	display: flex !important;
+	justify-content: flex-end;
+	box-sizing: border-box;
+	padding: 0px;
+	background: gray;
+}
+
+.TopBlock{
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+
+.Main_Header{
+	width: 100%;
+	margin: 0 auto;
+	border-style: dashed red;
+	border: 2px dashed red;
+	background: #0089d0;	  /* Other Color: #00897B*/
+/*	box-sizing: border-box;
+	align-items: center;
+	text-align: center;*/
+}
+
+
+
+/*h1{
+	box-sizing: border-box;
+	margin: 0;
+	text-align: center;
+	align-items: center;
+	font-size: 75px;
+	color: white;
+	letter-spacing: 17px;
+	background: #0089d0;
+}
+
+
+.SolarisHeader {
+	box-sizing: border-box;
+/	display: ;
+	margin: 0;
+	padding: auto;
+	border: 2px;
+	text-align: center;
+	align-items: center;
+	font-size: 75px;
+	color: white;
+	letter-spacing: 17px;
+	background: #0089d0;
+}*/
+
+/*.UsefulBar{
+	width: 100%;
+	height: 35px;
+	border-top: 1px solid;
+	background: #0089d0;
+
+}*/
+
+
+/*.TopNav{
+	box-sizing: border-box;
+	position: static;
+	text-align: center;
+	align-items: center;
+	justify-content: space-between;
+	float: left;
+	width: 100%;
+	height: 100%;
+	border-top: 0px solid white;
+	position: relative;
+	background: #0089d0;
+
+}
+
+*/
+/*.Navbar{
+	display: inline-flex;
+	font-family: big john;
+}
+
+.Navbar ul {
+	display: inline-flex;
+	list-style: none;
+
+}
+
+.Navbar ul li a {
+	text-decoration: none;
+}
+
+
+ul li { 
+	float: left;
+	padding: 10px 22px;
+	border-left: 1px solid #3b6c94;
+ }*/
+
+/*
+
+.TopNav ul li:hover{
+	display: inline-flex;
+	position: relative;
+	background: #F9A825;
+}*/
+
+/*
+
+.HomeDropDown{
+	display: none;
+  /* overflow: auto;
+	*/
+
+
+/*
+.FoodDropDown{
+	display: none;
+	position: absolute;
+	z-index: 1;	
+	text-decoration: none;
+	list-style-type: none;
+
+}*/
+
+/*
+li{
+	margin: 0;
+	padding: 0px;
+	float: left;
+	text-decoration: none;
+    list-style-type: none;
+	display: inline-flex;
+	border-right: 1px solid;
+	border-top: 1px solid;
+}*/
+
+/*
+ .navbar ul li:hover {
+	cursor: pointer;
+
+}*/
+
+
+/*  May Need To Delete This: ;
+
+  ul li ul{
+	visibility: hidden;
+	position: absolute;
+	display: none;
+}
+
+  .Navbar ul li:hover {
+	display: block;
+	position: absolute;
+
+}
+
+nav ul li:hover > ul,
+*/
+
+/*nav ul:hover {
+		visibility: visible;
+		display: block;
+}*/
+
+
+
+/*ul li:first-child {
+  border: none;
+
+}*/
+
+
+/*li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  list-style-type: none;
+
+}*/
+
+
+/*
+
+.search-box{
+	display: inline-block;
+	border: 8px solid white;
+	border-radius: 50px;
+	background: white;
+	width: max-content;
+	margin: 3px;
+	float: center;
+}
+
+.search-box:hover{
+	box-shadow: 0 0 10px 2px white;
+	border: 9px solid white;
+}
+
+.search-input{
+	width: 210px;
+	border: none;
+	font-size: 14px;
+	outline: none;
+	background: transparent;
+	margin: 5px 0 0 5px;
+}
+/*
+.fa fa-search {
+
+}
+
+.Cart {
+	display: inline-flex;
+	box-sizing: border-box;
+	margin: 0px 0px 0px 1000px;
+	border: 5px dashed red;
+	border-style: dashed red;
+	padding: 12px;
+	width: 60px;
+	
+
+}
+
+.Account{
+
+
+}
+
+/* ========================
+	 Media Queries
+   ======================== */
+/*
+@media screen and (min-width: 731px) {
+	div{
+		width: 70%;
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+
+	h1 {
+		max-width: 100%;
+		font-size: 25px;
+		letter-spacing: 10px;
+	}
+	
+}
+
+
+ ul.sub {
+    display: block;  
+    position: static;
+    box-shadow: none;
+    width: 100%;
+  }
+*/
+
+
